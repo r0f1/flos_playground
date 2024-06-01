@@ -8,3 +8,4 @@
   * Source: https://raw.githubusercontent.com/vincentarelbundock/modelarchive/main/data-raw/nhefs.csv
   * Description: https://rdrr.io/cran/causaldata/man/nhefs.html
 * titanic.csv: https://vincentarelbundock.github.io/Rdatasets/csv/Stat2Data/Titanic.csv
+* rhc.csv: https://github.com/migariane/TutorialComputationalCausalInferenceEstimators/blob/main/rhc.csv
