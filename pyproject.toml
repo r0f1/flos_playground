@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flos-playground"
+version = "0.1.0"
+description = ""
+authors = ["Florian Rohrer <semicolonator@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+marginaleffects = "^0.0.12"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
