@@ -1,0 +1,4 @@
+
+run:
+    PYTHONPATH='.' uv run \
+    luigi --module test_luigi.hello MyTask --x 123 --y 456 --local-scheduler
