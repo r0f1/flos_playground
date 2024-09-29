@@ -1,21 +1,10 @@
 
 # Setup
 
-```bash
-metaflow configure aws
-```
-or move the simplified `config.json` to `/home/flo/.metaflowconfig/config.json`
+Use this guide:
+ * Deploy guide: https://docs.outerbounds.com/engineering/deployment/aws-managed/cloudformation/
+   * CloudFormation template: https://github.com/outerbounds/metaflow-tools/tree/master/aws/cloudformation
+ * Add `"METAFLOW_DEFAULT_DATASTORE": "s3",` to the config.json
+ * Add a lot of permissions to the user group of the user
 
 # Resources
-https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html
-
-https://docs.outerbounds.com/engineering/operations/configure-metaflow/
-
-https://docs.metaflow.org/getting-started/infrastructure
-
-
-https://aws.amazon.com/blogs/opensource/getting-started-with-the-open-source-data-science-tool-metaflow-on-aws/
-
-https://github.com/Netflix/metaflow-service
-
-https://github.com/Netflix/metaflow-tools/blob/master/aws/cloudformation/metaflow-cfn-template.yml

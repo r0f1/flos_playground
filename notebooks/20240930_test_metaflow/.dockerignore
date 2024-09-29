@@ -1,0 +1,7 @@
+.metaflow
+.git
+.gitignore
+config.json
+Dockerfile
+justfile
+metaflow-cfn-template.yml

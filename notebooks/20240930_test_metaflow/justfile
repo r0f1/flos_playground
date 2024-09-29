@@ -9,5 +9,11 @@ docker_build:
     docker tag {{DOCKER_IMAGE_TAG}} {{DOCKER_IMAGE_PATH}}
     docker push {{DOCKER_IMAGE_PATH}}
 
-run:
+create:
     uv run python hello.py step-functions create
+
+trigger:
+    uv run python hello.py step-functions trigger
+
+docker_prune:
+    docker system prune -a -f
