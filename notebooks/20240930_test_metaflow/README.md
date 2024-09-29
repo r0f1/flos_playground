@@ -1,3 +1,13 @@
+
+# Setup
+
+```bash
+metaflow configure aws
+```
+
+# Resources
+https://docs.outerbounds.com/engineering/operations/configure-metaflow/
+
 https://docs.metaflow.org/getting-started/infrastructure
 
 

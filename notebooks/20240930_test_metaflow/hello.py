@@ -1,7 +1,4 @@
-from dotenv import load_dotenv
-load_dotenv() 
-
-from metaflow import FlowSpec, Parameter, step, batch
+from metaflow import FlowSpec, Parameter, step
 
 class ParameterFlow(FlowSpec):
     alpha = Parameter('alpha',

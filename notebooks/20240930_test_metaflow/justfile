@@ -1,0 +1,3 @@
+
+run:
+    uv run python hello.py --datastore=s3 step-functions create
