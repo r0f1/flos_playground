@@ -1,0 +1,10 @@
+{
+    "METAFLOW_BATCH_CONTAINER_REGISTRY": "982041915973.dkr.ecr.eu-central-1.amazonaws.com/metaflow-repo/test",
+    "METAFLOW_DEFAULT_CONTAINER_IMAGE": "test:latest",
+    "METAFLOW_BATCH_JOB_QUEUE": "my_job_queue",
+    "METAFLOW_DATASTORE_SYSROOT_S3": "s3://flosmetaflowdatastore/artifacts",
+    "METAFLOW_DATATOOLS_S3ROOT": "s3://flosmetaflowdatastore/artifacts/data",
+    "METAFLOW_DEFAULT_DATASTORE": "s3",
+    "METAFLOW_ECS_S3_ACCESS_IAM_ROLE": "arn:aws:iam::982041915973:role/ecsTaskExecutionRole",
+    "METAFLOW_ECS_FARGATE_EXECUTION_ROLE": "arn:aws:iam::982041915973:role/ecsTaskExecutionRole"
+}

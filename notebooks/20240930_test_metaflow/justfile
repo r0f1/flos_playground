@@ -1,3 +1,13 @@
 
+DOCKER_IMAGE_TAG := "metaflow-repo/test:latest"
+DOCKER_IMAGE_PATH := "982041915973.dkr.ecr.eu-central-1.amazonaws.com/metaflow-repo/test:latest"
+
+# aws ecr get-login-password --region eu-central-1 | docker login --username AWS --password-stdin 982041915973.dkr.ecr.eu-central-1.amazonaws.com
+
+docker_build:
+    export DOCKER_BUILDKIT=1 && docker build --progress plain --tag {{DOCKER_IMAGE_TAG}} .
+    docker tag {{DOCKER_IMAGE_TAG}} {{DOCKER_IMAGE_PATH}}
+    docker push {{DOCKER_IMAGE_PATH}}
+
 run:
-    uv run python hello.py --datastore=s3 step-functions create
+    uv run python hello.py step-functions create
