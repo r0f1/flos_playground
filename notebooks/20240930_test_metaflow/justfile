@@ -15,5 +15,8 @@ create:
 trigger:
     uv run python hello.py step-functions trigger
 
+create2:
+    uv run python hello2.py step-functions create
+
 docker_prune:
     docker system prune -a -f
